@@ -1,0 +1,104 @@
+body {
+    max-width: 1366px;
+    max-height: 768px;
+}
+
+h1 {
+    font-family: usual, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 70px;
+    margin-top: 1%;
+    padding-left: 10px;
+}
+
+h2 {
+    font-family: usual, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+header>h2 {
+    text-transform: lowercase;
+    margin-top: -3.5%;
+    padding-left: 10px;
+}
+
+li {
+    font-family: usual, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.25;
+}
+
+
+/* medium weight is 600, regular is 400, light is 300
+font-family: usual, sans-serif;
+font-weight: 600;
+font-style: normal;
+*/
+
+
+/* Styling for Banner */
+
+#banner {
+    width: 1100px;
+    height: 250px;
+    background-color: pink;
+    margin: auto;
+}
+
+
+/* Styling for Columns */
+
+#columns {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#studios {
+    width: 33%;
+    /*   background-color: red; */
+}
+
+#rd {
+    width: 33%;
+    /*  background: green; */
+}
+
+#finals {
+    width: 33%;
+    /* background-color: skyblue; */
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+section {
+    margin: 10px;
+    border: black 2px solid;
+    /*  border-bottom: black 1px solid;
+    border-left: black 1px solid; */
+}
+
+footer {
+    font-family: usual, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+a {
+    color: slateblue;
+    text-decoration: none;
+}
