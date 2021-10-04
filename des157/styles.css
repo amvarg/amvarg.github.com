@@ -6,7 +6,7 @@ body {
 }
 
 @keyframes backgroundchange {
-    0%{background-color: white;}
+    0%{background-color: white;} 
     20% {background-color: #EFFFEB;}
     40% {background-color: #FAF7D2;}
     60% {background-color: #FCE8F7;}
