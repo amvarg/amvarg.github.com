@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+
+    <style>
+        body{
+            background-color:linen;
+        }
+
+        #switchThis {
+            padding: 20px;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Experiment 2</h1>
+    <h2 id="switchThis">Did the background of this switch to your favorite color? Check the console too!</h2>
+
+    <script>
+        var colorList = ["Pink", "Orange", "Blue", "Green"]
+        var whatColor = prompt("What is your favorite of the following colors? \nPink, Orange, Blue, or Green?", "");
+        var textDisplay = document.getElementsByTagName('h2');
+
+        if (whatColor === colorList[0] || whatColor === "pink"){
+            console.log("Swapped to pink!");
+            document.getElementById('switchThis').style.backgroundColor='pink';
+        }
+        else if(whatColor === colorList[1] || whatColor === "orange"){
+            console.log("Swapped to orange!");
+            document.getElementById('switchThis').style.backgroundColor='orange';
+        }
+        else if(whatColor === colorList[2] || whatColor === "blue"){
+            console.log("Swapped to blue!");
+            document.getElementById('switchThis').style.backgroundColor='lightblue';
+        }
+        else if(whatColor === colorList[3] || whatColor === "green"){
+            console.log("Swapped to green!");
+            document.getElementById('switchThis').style.backgroundColor='green';
+        }
+        else{
+            console.log("Please choose a color from the list!\nRefresh & try again.");
+        }
+    </script>
+</body>
+</html>
