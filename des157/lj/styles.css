@@ -14,8 +14,10 @@ h1 {
     line-height: 85px;
     margin: 50px;
 }
-
-#bodyCopy {
+#first{
+    margin-top: 200px;
+}
+.bodyCopy {
     font-size: 16px;
     color: white;
     margin-left: 980px;
