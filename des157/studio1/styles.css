@@ -1,0 +1,64 @@
+body{
+    background-color: #F4E9D9;
+}
+
+form {
+    background: rgb(216,57,131);
+    background: linear-gradient(180deg, rgba(216,57,131,1) 12%, rgba(233,203,2,1) 27%, rgba(111,207,51,1) 70%, rgba(41,166,179,1) 80%);
+    width: 500px;
+    height: 680px;
+    margin-left: 60%;
+    margin-top: -15%;
+    font-size: 23px;
+    filter: drop-shadow(3px 3px 2px rgb(148, 148, 148));
+    padding: 50px;
+}
+
+form > label {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    line-height: 40px;
+    text-transform: uppercase;
+    font-family: ff-nexus-typewriter, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+h1{
+    font-family: ff-nexus-typewriter,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    padding-left: 45px;
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+#dreamtour {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+header > p {
+    padding-left: 50px;
+    font-family: ff-nexus-typewriter, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 350px;
+}
+
+#submit1{
+    font-family: itc-avant-garde-gothic-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 20%;
+    margin-left: 80%;
+    text-transform: lowercase;
+    background-color: black;
+    color: rgba(41,166,179,1);
+   
+}
+
+/* .tempHide{
+    visibility: hidden;
+} */
