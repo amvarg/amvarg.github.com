@@ -49,7 +49,7 @@
             performing.innerHTML = `Performing their hit single ${verb1} on the ${noun2}.`
             fruitEmo.innerHTML =`${fruit} ${emo}`;
             home.innerHTML =`${hometown}, California.`;
-            venueDate.innerHTML = `The${adj2} ${room}, ${num1}:${num2} PM.`
+            venueDate.innerHTML = `The ${adj2} ${room}, ${num1}:${num2} PM.`
             console.log("hope u like ur poster :). this picture is one i took seeing the strokes at the forum.")
             
         }
@@ -62,7 +62,7 @@
             performing.innerHTML = `Performing their hit single ${verb1} on the ${noun2}.`
             fruitEmo.innerHTML =`${fruit} ${emo}`;
             home.innerHTML =`${hometown}, California.`;
-            venueDate.innerHTML = `The${adj2} ${room}, ${num1}:${num2} PM.`
+            venueDate.innerHTML = `The ${adj2} ${room}, ${num1}:${num2} PM.`
             console.log("hope u like ur poster :). this picture is one i took at an album release party.")
 
         }
@@ -76,7 +76,7 @@
             performing.innerHTML = `Performing their hit single ${verb1} on the ${noun2}.`
             fruitEmo.innerHTML =`${fruit} ${emo}`;
             home.innerHTML =`${hometown}, California.`;
-            venueDate.innerHTML = `The${adj2} ${room}, ${num1}:${num2} PM.`
+            venueDate.innerHTML = `The ${adj2} ${room}, ${num1}:${num2} PM.`
             console.log("hope u like ur poster :). this picture is one i took on my 21st bday.")
         }
 
@@ -89,7 +89,7 @@
             performing.innerHTML = `Performing their hit single ${verb1} on the ${noun2}.`
             fruitEmo.innerHTML =`${fruit} ${emo}`;
             home.innerHTML =`${hometown}, California.`;
-            venueDate.innerHTML = `The${adj2} ${room}, ${num1}:${num2} PM.`
+            venueDate.innerHTML = `The ${adj2} ${room}, ${num1}:${num2} PM.`
             console.log("hope u like ur poster :). this picture is one i took seeing the band hippo campus.")
         }
 
