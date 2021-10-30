@@ -13,11 +13,6 @@
     var venueDate = document.querySelector("#venueDate")
     let selImg = document.querySelector('#selImg');
    
-
-    // selDrop.addEventListener('submit', function(event){
-    //     event.preventDefault();
-    //     console.log(selDrop.value);
-    // })
    
     myForm.addEventListener('submit', function(event){
         event.preventDefault();
@@ -99,8 +94,6 @@
             
         }
 
-        madlib.innerHTML = myText;
-        // madlib.innerHTML = testAnother;
 
         var formData = document.querySelectorAll("input[type=text]");
         for (var eachField of formData){
