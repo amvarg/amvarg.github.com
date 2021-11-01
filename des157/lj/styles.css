@@ -56,3 +56,17 @@ a:hover{
 .spacer {
     height: 200px;
 }
+
+figcaption{
+    padding-left: 55px;
+    padding-top: 10px;
+    color: white;
+}
+
+.smallSpacer{
+    height: 200px;
+}
+
+.tinySpacer{
+    height: 50px;
+}
