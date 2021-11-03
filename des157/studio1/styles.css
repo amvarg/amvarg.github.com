@@ -156,14 +156,14 @@ header > p {
     margin-top: -4.5%;
 }
 
-#footerLink {
+.footerLink {
     font-family: ff-nexus-typewriter,sans-serif;
     font-weight: 700;
     padding-left: 50px;
     color: black;
 }
 
-#footerLink:hover{
+.footerLink:hover{
     color: #ba3c7f;
     font-style: italic;
 }
