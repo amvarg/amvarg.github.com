@@ -1,0 +1,81 @@
+body{
+    max-width: 1366px;
+    max-height: 768px;
+    font-family: corporate-s-std-urw,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    background-color: #EC563B;
+    color: white;
+}
+
+h1{
+    font-size: 30px;
+    text-decoration: underline;
+    padding-left: 15px;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+    padding-right: 10px;
+}
+
+a:hover{
+    font-style: italic;
+}
+
+header{
+    display:inline-flex;
+}
+
+#links{
+    padding-left: 720px;
+    padding-top: 20px;
+}
+
+p{
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+#licenseNames {
+    margin-top: -50px;
+}
+
+.license:hover{
+    font-style: italic;
+}
+hr{
+    width: 625px;
+    margin-top: 40px;
+    margin-left: -975px;
+    height: 0px;
+    background-color:white;
+    border-width: 1;
+}
+
+.licenseImg{
+    padding-left: 54%;
+    margin-top: -1300px;
+    padding-bottom: 280px;
+}
+
+.licenseInfo{
+    font-size:25px;
+    padding-top: 995px;
+    margin-top: -1270px;
+    padding-left: 54%;
+    line-height: 1.25em;
+    text-transform: none;
+    font-size: 25px;
+}
+
+.tempHide{
+    display: none;
+}
+
+
