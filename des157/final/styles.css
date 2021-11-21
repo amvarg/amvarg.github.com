@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(0, 199, 7);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    font-family: new-spirit-condensed,serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 100px;
+}
+
+#brief {
+    font-family: p22-mackinac-pro,serif;
+    text-transform: none;
+    font-weight: 400;
+    font-style: italic;
+}
+
+h2{
+    font-size: 26px;
+    font-family: p22-mackinac-pro,serif;
+    text-transform: none;
+    font-weight: 400;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+hr{
+    border-top:  white;
+}
+
+p{
+    padding-left: 30px;
+    width: 1000px;
+    font-family: new-spirit-condensed,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+figcaption{
+    padding-left: 90px;
+}
+
+a{
+    color: white;
+    font-family: new-spirit-condensed,serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    font-size: 15px;
+}
+
+a:hover{
+    color: rgb(26, 169, 13);
+}
+
+.spacer{
+    height: 10px;
+}
+
+
+footer>a{
+    padding-left:10px;
+}
