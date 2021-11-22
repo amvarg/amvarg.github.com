@@ -1,0 +1,58 @@
+body {
+    font-family: houschka-rounded,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #707070;
+    padding: 50px;
+    line-height: 1.5em;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 100px;
+    margin-left: -40px;
+    margin-top: -15px;
+}
+
+h2{
+    background-color: #F5D64D;
+    color: white;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 90px;
+    font-size: 20px;
+}
+
+h3{
+    color: darkblue;
+}
+p{
+    width: 500px;
+    font-size: 12px;
+}
+
+#instructions{
+    /* background-color: rgb(252, 203, 186); */
+    margin-left: 700px;
+    margin-top: -150px;
+}
+button { 
+    padding: 10px;
+}
+
+div {
+    padding: 20px;
+}
+
+#gamecontrol, #score {
+    background-color: aliceblue;
+}
+
+#game {
+    background-color:#eaeaea;
+}
+#actions {
+    background-color: silver;
+}
