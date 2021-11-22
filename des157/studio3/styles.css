@@ -51,14 +51,14 @@ div {
 }
 
 #game {
-    background-color:#64f470;
+    background-color:#f4f1f1;
 }
 #actions {
     background-color: silver;
 }
 
 button{
-    background-color: pink;
+    background-color: rgb(244, 160, 145);
     font-family: houschka-rounded,sans-serif;
     font-weight: 700;
     font-style: normal;
