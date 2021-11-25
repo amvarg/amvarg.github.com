@@ -1,14 +1,16 @@
 'use strict';
 console.log('reading js!!!!');
 
-var startGame = document.getElementById('startgame');
+
+	   	var startGame = document.getElementById('startgame');
 	    var gameControl = document.getElementById('gamecontrol');
 	    var game = document.getElementById('game');
 	    var score = document.getElementById('score');
 	    var actionArea = document.getElementById('actions');
 
+
         var gameData = {
-            dice: ['1die.jpg','2die.jpg','3die.jpg','4die.jpg','5die.jpg','6die.jpg'],
+            dice: ['1die.png','2die.png','3die.png','4die.png','5die.png','6die.png'],
             players: ['Player 1','Player 2'],
             score: [0,0],
             roll1: 0,
@@ -35,7 +37,7 @@ var startGame = document.getElementById('startgame');
         })
 
         function setUpTurn(){
-            game.innerHTML = `<p>Roll the dice for ${gameData.players[gameData.index]}</p>`
+            game.innerHTML = `<p id="rollAction">Roll the dice for ${gameData.players[gameData.index]}</p>`
             actionArea.innerHTML = `<button id = "roll">Roll the dice</button> `
             document.getElementById('roll').addEventListener('click',function(){
                 throwDice();
@@ -47,9 +49,9 @@ var startGame = document.getElementById('startgame');
             actionArea.innerHTML = '';
             gameData.roll1 = Math.floor(Math.random()*6)+1;
             gameData.roll2 = Math.floor(Math.random()*6)+1;
-            game.innerHTML = `<p>Roll the dice for the ${gameData.players[gameData.index]}</p>`
-            game.innerHTML += `<img src="${gameData.dice[gameData.roll1-1]}">
-            <img src="${gameData.dice[gameData.roll2-1]}">`;
+            game.innerHTML = `<p id="rollAction2">Roll the dice for the ${gameData.players[gameData.index]}</p>`
+            game.innerHTML += `<img src="images/${gameData.dice[gameData.roll1-1]}">
+            <img src="images/${gameData.dice[gameData.roll2-1]}">`;
             gameData.rollSum = gameData.roll1 + gameData.roll2;
 
             //if two 1s are rolled
@@ -72,7 +74,7 @@ var startGame = document.getElementById('startgame');
             //if neither die is a 1
             else{
                 gameData.score[gameData.index]+= gameData.rollSum;
-                actionArea.innerHTML = '<button id = "rollagain">Roll again</button> or <button id="pass">Pass</button>';
+                actionArea.innerHTML = '<button id = "rollagain">Roll again</button><button id="pass">Pass</button>';
 
                 document.getElementById('rollagain').addEventListener('click', function(){
                     setUpTurn();
@@ -88,7 +90,7 @@ var startGame = document.getElementById('startgame');
         }
         function checkWinningCondition(){
             if(gameData.score[gameData.index]>gameData.gameEnd){
-                score.innerHTML = `<h3>${gameData.players[gameData.index]} wins with ${gameData.score[gameData.index]} points!</h3>`;
+                score.innerHTML = `<h3 id="winner">${gameData.players[gameData.index]} wins with ${gameData.score[gameData.index]} points!</h3>`;
 
                 actionArea.innerHTML = '';
                 document.getElementById('quit').innerHTML = "Start a New Game?";
@@ -99,5 +101,5 @@ var startGame = document.getElementById('startgame');
         }
 
         function showCurrentScore(){
-            score.innerHTML = `<p>The score is currently <strong>${gameData.players[0]} : ${gameData.score[0]}</strong> and <strong>${gameData.players[1]} : ${gameData.score[1]}</strong></p>`;
+            score.innerHTML = `<p id ="score1">PLAYER 1 <br>  SCORE: ${gameData.score[0]}</p> <p id="score2">PLAYER 2 <br>  SCORE: ${gameData.score[1]} </p>`;
         }

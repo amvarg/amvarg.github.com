@@ -1,16 +1,20 @@
 body {
+    max-width: 1366px;
+    max-height: 768px;
     font-family: houschka-rounded,sans-serif;
     font-weight: 700;
     font-style: normal;
-    color: #707070;
+    color:#999797;
     padding: 50px;
     line-height: 1.5em;
 }
+
 h1{
     text-transform: uppercase;
     font-size: 100px;
     margin-left: -40px;
     margin-top: -15px;
+    color: dimgray;
 }
 
 h2{
@@ -21,16 +25,22 @@ h2{
     padding-bottom: 5px;
     border-radius: 10px;
     text-align: center;
-    margin-left: 90px;
+    margin-left: 60px;
+    margin-top: 15px;
     font-size: 20px;
 }
 
 h3{
-    color: darkblue;
+    margin-left: -50px;
+    margin-top: -130px;
+    text-transform: uppercase;
 }
 p{
     width: 500px;
     font-size: 12px;
+    line-height: 1.25em;
+    margin-left: -30px;
+    margin-top: -5px;
 }
 
 #instructions{
@@ -38,29 +48,99 @@ p{
     margin-left: 700px;
     margin-top: -150px;
 }
-button { 
-    padding: 10px;
-}
 
 div {
     padding: 20px;
 }
 
-#gamecontrol, #score {
-    background-color: aliceblue;
+
+
+#score1{
+    font-size: 40px;
+    margin-left: 700px;
+    margin-top: -350px;
+
+}
+#score2{
+    font-size: 40px;
+    margin-left: 950px;
+    margin-top:-140px;
+   
 }
 
-#game {
-    background-color:#f4f1f1;
+img{
+    margin-top: -100px;
+    margin-left: -90px;
+    padding-right: 40px;
 }
-#actions {
-    background-color: silver;
+#rollAction{
+    font-size: 16px;
+    margin-top: -70px;
+    margin-left: -45px;
+    padding-bottom: 80px;
+}
+
+#rollAction2{
+    font-size: 16px;
+    margin-top: -70px;
+    margin-left: -45px;
+    padding-bottom: 80px;
+}
+
+a{
+    color: #F5D64D;
+    padding: 10px;
+}
+
+a:first-child{
+margin-left: -35px;
+}
+
+a:hover{
+    color: gray;
+}
+footer{
+    margin-top: -50px;
+}
+#winner{
+    margin-top: -60px;
+    font-size: 30px;
+}
+
+
+/* buttons styles */
+#quit{
+    background-color: orange;
+}
+
+#roll  {
+    background-color: rgb(244, 160, 145);
 }
 
 button{
-    background-color: rgb(244, 160, 145);
+    background-color: rgb(186, 186, 186);
     font-family: houschka-rounded,sans-serif;
     font-weight: 700;
     font-style: normal;
+    color: white;
+    text-transform: uppercase;
     border-radius: 10px;
+    margin-left: -53px;
+    margin-top: -10px;
+    padding: 15px;
+    border: none;
+
+    
+}
+
+button:hover{
+    box-shadow: 7px 7px 0px -2px rgba(0,0,0,0.1);
+}
+
+#rollagain{
+    background-color: rgb(244, 160, 145);
+}
+#pass{
+    background-color: gainsboro;
+    margin-left: 20px;
 }
