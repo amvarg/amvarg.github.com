@@ -7,7 +7,7 @@ console.log('reading js!!!!');
 	    var game = document.getElementById('game');
 	    var score = document.getElementById('score');
 	    var actionArea = document.getElementById('actions');
-
+        var clickNoise = new Audio('media/switch3.mp3');
 
         var gameData = {
             dice: ['1die.png','2die.png','3die.png','4die.png','5die.png','6die.png'],
@@ -23,13 +23,15 @@ console.log('reading js!!!!');
         // console.log(gameData);
 
         startGame.addEventListener('click', function(){
+           
             gameData.index = Math.round(Math.random());
-
+            clickNoise.play();
             gameControl.innerHTML = '<h3>The Game Has Started</h3>';
             gameControl.innerHTML += '<button id="quit">Wanna Quit?</button>';
-
+            clickNoise.play();
             document.getElementById('quit').addEventListener('click', function(){
                 location.reload();
+                clickNoise.play();
             })
 
             setUpTurn();
@@ -41,6 +43,7 @@ console.log('reading js!!!!');
             actionArea.innerHTML = `<button id = "roll">Roll the dice</button> `
             document.getElementById('roll').addEventListener('click',function(){
                 throwDice();
+                clickNoise.play();
             })
            
         }
@@ -78,11 +81,14 @@ console.log('reading js!!!!');
 
                 document.getElementById('rollagain').addEventListener('click', function(){
                     setUpTurn();
+                    clickNoise.play();
+                   
                 });
 
                 document.getElementById('pass').addEventListener('click',function(){
                     gameData.index ? (gameData.index = 0) : (gameData.index = 1);
                     setUpTurn();
+                    clickNoise.play();
                 });
                 
                 checkWinningCondition();
