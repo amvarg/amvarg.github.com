@@ -1,9 +1,9 @@
 (function(){
     'use strict';
-    console.log(`reading js`);
+    console.log(`reading js!!!!`);
 
-    alert('This is used to conduct the user test.')
-    
+    alert('This is used to conduct the user test.');
+
     var myForm = document.querySelector(`#myForm`);
     var madlib = document.querySelector("#madlib");
     var incomplete = document.querySelector("#incomplete")
