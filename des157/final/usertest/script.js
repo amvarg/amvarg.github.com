@@ -2,7 +2,7 @@
     'use strict';
     console.log(`reading js!!!!`);
 
-    alert('This is used to conduct the user test.');
+    alert('Welcome to the user test! \nPlease complete the three following tasks:\n\n1. Fill out the form entirely.\n2. Submit your input, and output a poster.\n3. Reset the form and poster output.');
 
     var myForm = document.querySelector(`#myForm`);
     var madlib = document.querySelector("#madlib");
