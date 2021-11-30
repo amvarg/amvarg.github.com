@@ -15,6 +15,16 @@ form {
     padding: 50px;
     /* position: relative; */
 }
+.stickers {
+    height: 321px;
+    width: 500px;
+    background:url(images/sticker-set-2.png);
+    margin-top: -400px;
+}
+
+.stickers:hover{
+    background: url(images/sticker-set-1.png) no-repeat;
+}
 
 form > label {
     padding-top: 10px;
@@ -50,20 +60,18 @@ header > p {
 }
 
 #submit1{
-    font-family: itc-avant-garde-gothic-pro,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    margin-top: 20%;
+    color: transparent;
+    background-color: transparent;
+    border: none;
     margin-left: 80%;
-    text-transform: lowercase;
-    background-color: black;
-    color: rgba(41,166,179,1);
+    margin-top: 10%;
    
 }
 
-/* .tempHide{
-    visibility: hidden;
-} */
+
+#italitc{
+    font-style: italic;
+}
 
 #incomplete {
     font-family: ff-nexus-typewriter,sans-serif;
@@ -167,3 +175,19 @@ header > p {
     color: #ba3c7f;
     font-style: italic;
 }
+/* styling form inputs here  */
+input{
+    background-color: rgba(233, 211, 233, 0.187);
+    border-radius: 5px;
+    height: 15px;
+    color: white;
+    font-family: ff-nexus-typewriter,sans-serif;
+    text-transform: uppercase;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+
+/* try this link to style the select https://www.geeksforgeeks.org/how-to-style-a-dropdown-using-css/ */

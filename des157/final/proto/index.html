@@ -11,13 +11,16 @@
 </head>
 <body>
     <header>
+        <!-- Just a header with some simple info about the project/version -->
         <img id="dreamtour" src="images/dreamtour.png" alt="dream tour" height="75" width="352">
         <h1>&#9733;&#9733; Generator &#9733;&#9733;</h1>
         <p>This generator works to create your dream tour line up, in the form of a mid-century rock poster. Fill out the form and hit submit! This is the first protoype.</p>
-        <p>Refresh to reset.</p>
+        <!-- instructions on resetting poster! -->
+        <p id="italitc">Refresh to reset.</p>
         
     </header>
     <main>
+        <!-- form inputs to be used to build poster later -->
         <form id="myForm" class="tempHide">
             <label for="adj1">An Adjective:</label>
             <input type="text" id="adj1" >
@@ -54,34 +57,45 @@
             <br>
             <label for="vibe">The vibe of your show:</label>
             <select name="vibe" id="vibe">
+                <!-- select menu that decides on image output (also outputs a console message w/ info about image origin)-->
                 <option value="">---</option>
                 <option value="hardcore">Hardcore</option>
                 <option value="relaxed">Relaxed</option>
                 <option value="danceable">Danceable</option>
                 <option value="mind-blowing">Mind-Blowing</option>
             </select>
-            <br>
-            <input type="submit" value="submit" id="submit1">
+
+            <!-- submit button switched to image -->
+            <button type="submit" id="submit1">
+                <img src="images/submit.png" alt="test" width="90" height="36">
+            </button>
+            <!-- Displays incomplete message -->
             <p id="incomplete"></p>
             
         </form>
+
+<!-- sticker graphics (similar to home page as they change on hover) -->
+        <div class="stickers"></div>
+    <!-- output poster overlay  -->
         <div id="posterOverlay">
             <p id="live">Live</p>
             <img src="images/inconcert.png" alt="in concert" height="60" width="200">
             <p id="artistName"></p>
             <p id="performing">Performing their hit single</p>
             <img id="selImg" src="#" alt="selected image" height="192" width="285">
+            <!-- &#9733; are stars! :) -->
             <p id="guests">&#9733;&#9733; w/ Special Guests &#9733;&#9733;</p>
             <p id="fruitEmo"></p>
-          
             <p id="oct1970">Oct. 29th, 1970</p>
             <p id="home"></p>
             <p id="venueDate"></p>
 
         </div>
         
+        
     </main>
     <footer>
+        <!-- usual footer links -->
     <a class="footerLink" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Famvarg.github.io%2Fdes157%2Fstudio1%2Findex.html">&#9733;&#9733;VALID HTML&#9733;&#9733;</a>
     <a class="footerLink" href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Famvarg.github.io%2Fdes157%2Fstudio1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">&#9733;&#9733;VALID CSS&#9733;&#9733;</a>
     </footer>

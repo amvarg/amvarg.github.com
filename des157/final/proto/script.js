@@ -2,7 +2,7 @@
     'use strict';
     console.log(`reading js`);
 
-
+    // create variables for each user input 
     var myForm = document.querySelector(`#myForm`);
     var madlib = document.querySelector("#madlib");
     var incomplete = document.querySelector("#incomplete")
@@ -14,11 +14,11 @@
     var venueDate = document.querySelector("#venueDate")
     let selImg = document.querySelector('#selImg');
    
-   
+//    waiting for submit button to be pressed
     myForm.addEventListener('submit', function(event){
         event.preventDefault();
 
-        //user input variables
+        //user input variables (remember them from above? :) )
         var adj1 = document.querySelector('#adj1').value;
         var noun1 = document.querySelector('#noun1').value;
         var fruit = document.querySelector('#fruit').value;
@@ -31,11 +31,13 @@
         var num1 = document.querySelector('#num1').value;
         var num2 = document.querySelector('#num2').value;
         var selDrop = document.querySelector('select').value;
+        var form = document.querySelector('form').value;
         
         //message 2 user
         var myText;
 
-        // 
+        // these could probably be condensed into functions but basically they output the poster based upon what "vibe was selected"
+        
         if(adj1 && noun1 && fruit && emo && verb1 && noun2 && adj2 && room && hometown && num1 && num2 && selDrop === "hardcore"){
             myText =  `LIVE in concert. The ${adj1} ${noun1}, with special guests ${fruit} ${emo}. Performing their hit single ${verb1} on the ${noun2}. The ${adj2} ${room}. October 25, 1970. ${hometown}, California. ${num1}:${num2} PM, Come feeling ${selDrop}.`;
             posterOverlay.style.display = "block";
@@ -46,7 +48,7 @@
             fruitEmo.innerHTML =`${fruit} ${emo}`;
             home.innerHTML =`${hometown}, California.`;
             venueDate.innerHTML = `The ${adj2} ${room}, ${num1}:${num2} PM.`
-            console.log("hope u like ur poster :). this picture is one i took seeing the strokes at the forum.")
+            console.log("hope u like ur poster :). this picture is one i took seeing the strokes at the forum with my best friend.")
             
         }
         else if (adj1 && noun1 && fruit && emo && verb1 && noun2 && adj2 && room && hometown && num1 && num2 && selDrop === "relaxed"){
@@ -59,7 +61,7 @@
             fruitEmo.innerHTML =`${fruit} ${emo}`;
             home.innerHTML =`${hometown}, California.`;
             venueDate.innerHTML = `The ${adj2} ${room}, ${num1}:${num2} PM.`
-            console.log("hope u like ur poster :). this picture is one i took at an album release party.")
+            console.log("hope u like ur poster :). this picture is one i took at an album release party for thuy.")
 
         }
 
@@ -73,7 +75,7 @@
             fruitEmo.innerHTML =`${fruit} ${emo}`;
             home.innerHTML =`${hometown}, California.`;
             venueDate.innerHTML = `The ${adj2} ${room}, ${num1}:${num2} PM.`
-            console.log("hope u like ur poster :). this picture is one i took on my 21st bday.")
+            console.log("hope u like ur poster :). this picture is one i took on my 21st bday @ micky's in weho!")
         }
 
         else if (adj1 && noun1 && fruit && emo && verb1 && noun2 && adj2 && room && hometown && num1 && num2 && selDrop === "mind-blowing"){
@@ -86,9 +88,9 @@
             fruitEmo.innerHTML =`${fruit} ${emo}`;
             home.innerHTML =`${hometown}, California.`;
             venueDate.innerHTML = `The ${adj2} ${room}, ${num1}:${num2} PM.`
-            console.log("hope u like ur poster :). this picture is one i took seeing the band hippo campus.")
+            console.log("hope u like ur poster :). this picture is one i took seeing the band hippo campus at the novo.")
         }
-
+// incomplete message called within html if button is pressed without all fields being included
         else {
             myText =''
             incomplete.innerHTML = "Please complete the form so <br> I can make your Mad Lib!";
