@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    /* color: rgb(0, 0, 0); */
+    color: #ff00b3;
+    transition: all 2s;
+    font-family: mauritius,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body.switch {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    max-width: 1366px;
+    /* make sure the columns don't get too small and text stays readable */
+    min-width: 900px;
+    margin: 1em auto;
+    padding-top: 2em;
+}
+
+header {
+    margin: 0 auto 2em auto;
+}
+
+h1 {
+    font-family: mauritius-cond,serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 150px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+h2{
+    /* font-family: mauritius-cond,serif;
+    font-weight: 400;
+    font-style: normal; */
+    font-family: owners,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: -100px;
+    text-align: right;
+}
+
+h3{
+    color: rgb(255, 0, 179);
+}
+
+#banner {
+    position: relative;
+    display: flex;
+    width: 1100px;
+    height: 250px;
+    top: -30px;
+    margin-left: 265px;
+    /* transition: all 2s; */
+    background: url(images/doodle-banner.png);
+    overflow: hidden;
+}
+
+#banner.switch {
+    /* background-color: white; */
+    color: rgb(235, 235, 235);
+    /* transition: all 2s; */
+    background: url(images/pinkstuff-banner.png);
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em auto;
+}
+
+main section {
+    width: 25%;
+    border: 1px rgb(255, 0, 179) solid;
+    margin: 0 .25em;
+    padding: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-family: owners,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+
+section li {
+    padding-left: 1.2em;
+}
+
+section a {
+    line-height: 1.1em;
+    display: inline-block;
+    padding: .5em;
+    color: rgb(255, 0, 179);
+}
+
+section a:hover {
+    border: solid 1px rgb(255, 0, 179);
+ 
+}
+
+section.switch a {
+    color: white;
+}
+
+section.switch a:hover {
+    /* background-color: #333; */
+    border: solid 1px white;
+}
+ 
+section.switch{
+    border: solid 1px white;
+}
+
+section.switch h3{
+    color: white;
+}
+
+button {
+    position: absolute;
+    top: 54%;
+    left: 4px;
+    padding: 10px;
+    background-color: transparent;
+    color: rgb(255, 0, 179);
+    font-family: owners,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    border: 1px solid transparent;
+    animation: pulsate 1s infinite;
+}
+
+button:hover { 
+    /* background-color: navy; */
+    cursor: pointer;
+    border: 1px rgb(255, 0, 179) solid;
+}
+
+button.switch {
+    background-color: transparent;
+    /* border-color: #333; */
+    animation: pulsate2 1s infinite;
+}
+
+button.switch:hover {
+    border: 1px white solid;
+}
+
+@keyframes pulsate{
+    0%{color: rgb(255, 0, 179);}
+    50%{color: rgb(248, 169, 224);}
+    100%{color: rgb(255, 0, 179);}
+}
+
+@keyframes pulsate2{
+    0%{color: rgb(255, 255, 255);}
+    50%{color: rgb(181, 181, 181);}
+    100%{color: rgb(255, 255, 255);}
+}
