@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/kpd7bva.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blockbuster Video! - Hiding Tonight</title>
+
+</head>
+
+<body>
+    
+    <video id="myVideo" poster="images/poster.png" controls muted autoplay loop playsinline>
+        <source src="media/biking.webm" type="video/webm">
+        <source src="media/biking.mp4" type="video/mp4">
+        
+        <p>Your browser doesn't support HTML5 video.
+            Here is a <a href="media/biking.mp4">link to the video instead</a>
+        </p>
+    </video>
+    <i class="fas fa-expand"></i>
+    <i class="fas fa-bicycle"></i>
+
+    <section id="sec1">
+        <p id="lyric1" class="hidden">tomorrow i'll be stronger</p>
+        <p id="lyric2" class="hidden">running colorful, no longer just in black and white</p>
+        <p id="lyric3" class="hidden">but i'm quite alright</p>
+        <p id="lyric4" class="hidden">hiding tonight</p>
+    </section>
+
+    <section id="onHoverLink" class="hidden">
+        <a href="https://open.spotify.com/track/0x47zt71IYykbt1ET933pJ?si=66b2d64580814556">Hiding Tonight - Alex Turner</a>
+        <p id="ali">Blockbuster Video — DES 157B — Alessandra Vargas</p>
+    </section>
+    <script>
+    
+         (function(){
+            'use strict';
+            const fs = document.querySelector('.fa-expand');
+
+            
+            fs.addEventListener('click', function(){
+                if(!document.fullscreenElement){
+                    document.documentElement.requestFullscreen();
+                } else {
+                    document.exitFullscreen();
+                }
+            })
+
+            const sec1 = document.querySelector('#sec1');
+            const lyric1 = document.querySelector('#lyric1');
+            const lyric2 = document.querySelector('#lyric2');
+            const lyric3 = document.querySelector('#lyric3');
+            const lyric4 = document.querySelector('#lyric4');
+
+            const loading = document.querySelector('.fa-bicycle');
+
+            const onHoverLink = document.querySelector('#onHoverLink');
+            const myVideo = document.querySelector('#myVideo');
+
+            const intervalID = setInterval(checkTime, 1000);
+            
+            function checkTime(){
+                if(0.765 < myVideo.currentTime && myVideo.currentTime < 4.77){
+                    lyric1.className = "showing";
+                }else{
+                    lyric1.className = "hidden";
+                }
+
+                if(4.78 < myVideo.currentTime && myVideo.currentTime < 13){
+                    lyric2.className = "showing";
+                }else{
+                    lyric2.className = "hidden";
+                }
+                if(13 < myVideo.currentTime && myVideo.currentTime < 15){
+                    lyric3.className = "showing";
+                }else{
+                    lyric3.className = "hidden";
+                }
+                if(15 < myVideo.currentTime && myVideo.currentTime < 19){
+                    lyric4.className = "showing";
+                }else{
+                    lyric4.className = "hidden";
+                }
+            }
+
+           myVideo.addEventListener('mouseover',function(){
+            onHoverLink.className = "showing";
+
+           }
+           )
+           myVideo.addEventListener('mouseout',function(){
+            onHoverLink.className = "hidden"
+           }
+           )
+
+           myVideo.addEventListener('playing', function(){
+                loading.style.display ='none';
+            })
+            
+        })();
+    </script>
+</body>
+
+</html>

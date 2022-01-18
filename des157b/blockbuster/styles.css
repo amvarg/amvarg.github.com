@@ -1,0 +1,111 @@
+
+#myVideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+   
+}
+
+a{
+    color: white;
+    
+}
+#onHoverLink{
+    color:yellow;
+    font-family: owners,sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 50px;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 100px;
+    background-color: rgba(0, 0, 0, 0.543);
+    border-radius: 10px;
+}
+
+.fa-bicycle{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    font-size: 36px;
+    color: #dfcaae;
+    transform: translate(-50%, -50%);
+    animation: pulsate 2s infinite alternate ease-in-out;
+}
+
+@keyframes pulsate{
+    0%{
+        opacity: .5;
+        transform: scale(1);
+    }
+    50%{
+        opacity: 1;
+
+    }
+    100%{
+        opacity: .5;
+        transform: scale(1.5);
+    }
+}
+
+#ali{
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 10%;
+    color: white;
+}
+.fa-expand{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 36px;
+    color: #dfcaae;
+}
+
+.fa-expand:hover{
+    cursor: pointer;
+}
+
+section{
+    position: absolute;
+    color: white;
+}
+
+#sec1{
+    color:yellow;
+    font-family: owners,sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 45px;
+}
+
+
+#lyric1{
+    /* max-height: 100px; */
+    margin-left: 50%;
+    margin-top: 550px;
+}
+
+#lyric2{
+    margin-left: 45%;
+    margin-top: -40px;
+}
+
+#lyric3{
+    margin-left: 45%;
+    margin-top: -80px;
+}
+
+#lyric4{
+    margin-left: 45%;
+    margin-top: -100px;
+}
+.hidden{
+    opacity: 0;
+}
+
+.showing{
+    opacity: 1;
+}
