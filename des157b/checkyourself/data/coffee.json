@@ -1,4 +1,8 @@
 {
+    "nothing" : {
+        "time" : "---",
+        "mood" : "---"
+    },
     "point1" : {
         "time" : "7:30",
         "mood" : "really exhausted"

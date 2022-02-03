@@ -11,9 +11,7 @@ body {
     background-color: rgb(136, 107, 89);
     height: 600px;
     width: 900px;
-
     margin: auto;
-
 }
 
 .fa-mug-hot {
@@ -26,6 +24,34 @@ body {
 
 }
 
+#frame.mug1 {
+    background-color: darkred;
+}
+
+#frame.mug2 {
+    background-color: brown;
+}
+#frame.mug3{
+    background-color: indianred;
+}
+#frame.mug4{
+    background-color: khaki;
+}
+#frame.mug5{
+    background-color: limegreen;
+}
+#frame.mug6{
+    background-color: palegoldenrod;
+}
+#frame.mug7{
+    background-color: rosybrown;
+}
+#frame.mug8{
+    background-color: sienna;
+}
+#frame.mug9{
+    background-color: orangered;
+}
 /* how do i style these in an arc? */
 #dropdown {
     margin-top: 50px;
@@ -48,7 +74,6 @@ form {
     font-family: owners, sans-serif;
     font-weight: 700;
     font-style: normal;
-
     font-size: 55px;
 }
 
