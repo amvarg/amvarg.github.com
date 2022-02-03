@@ -1,0 +1,38 @@
+{
+    "point1" : {
+        "time" : "7:30",
+        "mood" : "really exhausted"
+    },
+    "point2" : {
+        "time" : "7:55",
+        "mood" :  "still pretty tired"
+    },
+    "point3" : {
+        "time" : "8:20",
+        "mood" : "ready for my coffee"
+    },
+    "point4" : {
+        "time" : "8:45",
+        "mood" : "pretty energized now!"
+    },
+    "point5" : {
+        "time" : "9:10",
+        "mood" : "like I could run a mile"
+    },
+    "point6" : {
+        "time" : "9:45",
+        "mood" : "back to normal"
+    },
+    "point7" : {
+        "time" : "10:20",
+        "mood" : "like I'm crashing"
+    },
+    "point8" : {
+        "time" : "11:15",
+        "mood" : "like more coffee"
+    },
+    "point9" : {
+        "time" : "11:35",
+        "mood" : "like my 2nd cup ASAP "
+    }
+}

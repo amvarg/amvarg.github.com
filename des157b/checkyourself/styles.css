@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(227, 223, 209);
+    font-family: owners, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 35px;
+}
+
+#frame {
+    background-color: rgb(136, 107, 89);
+    height: 600px;
+    width: 900px;
+
+    margin: auto;
+
+}
+
+.fa-mug-hot {
+    font-size: 70px;
+    color: rgb(79, 34, 5);
+    padding: 5px;
+    text-align: center;
+    margin-left: 12px;
+    padding-top: 18%;
+
+}
+
+/* how do i style these in an arc? */
+#mug1 {}
+
+
+#dropdown {
+    margin-top: 50px;
+}
+
+form {
+    /* margin-top: 10%; */
+    background-color: antiquewhite;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(79, 34, 5);
+}
+
+#result {
+    /* padding-bottom: 20px; */
+    margin-top: 25%;
+    text-align: center;
+    font-family: owners, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    font-size: 55px;
+}
+
+@keyframes pulsate {
+    0% {
+        color: rgb(79, 34, 5);
+    }
+
+    50% {
+        color: rgb(211, 197, 187);
+    }
+
+    100% {
+        color: rgb(79, 34, 5);
+    }
+}
