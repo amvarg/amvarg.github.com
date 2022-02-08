@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.typekit.net/xai8tpy.css">
+    <!-- <link rel="stylesheet" href="css/imagehover.min.css"> -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Library Liberty - Studio 2</title>
+</head>
+
+<body>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js">
+    </script>
+    <!-- granim script init below -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.js"
+        integrity="sha512-kkIHo15i5P7DYFnljV7WfIhciExiBE+B6wOMFIynb0bVg0si8EBkW0waGyzjI1X1dv3GNIGe5QRKDrK2bCRTCw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    <div id="col">
+        <div id="spacer"></div>
+        <p>2020 and 2021 weren't really <br> the best years for all of us.<br>
+            <br>I ended things with someone <br>who I thought was love of my life.
+        </p>
+        <p>This is a gallery of images that represent <br>my growth ever since that, and my <br>subsequent move to
+            Davis, CA. </p>
+        <img src="images/me.png" alt="me" height="200">
+    </div>
+    <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 450 }'>
+
+        <!-- look into the images loaded thing   -->
+        <!-- https://codepen.io/desandro/pen/vLeBLV example here ? -->
+        <div class="grid-item"><img src="images/pol1.png" alt="polaroid 1" height="400" id="grid1"></div>
+        <div class="grid-item"><img src="images/fr1.png" alt="frame1" id="grid2" height="400"></div>
+        <div class="grid-item grid-item--width2" id="grid3"><img src="images/mir1.png" alt="t2"></div>
+        <div class="grid-item grid-item--width2"><img src="images/fr2.png" alt="t2"></div>
+        <div class="grid-item"><img src="images/pol2.png" alt="polaroid 2" height="400"></div>
+        <div class="grid-item"><img src="images/fr3.png" alt="polaroid 2" height="200"></div>
+
+    </div>
+
+
+</body>
+
+</html>
