@@ -1,15 +1,19 @@
-#col{
-    background-color: rgb(255, 223, 228);
+#col {
+    background-color: pink;
+    color: white;
+    /* font-size: ; */
     float: right;
     width: 350px;
     height: 1000px;
-    font-family: trade-gothic-next,sans-serif;
+    font-family: trade-gothic-next, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-#spacer{
+
+#spacer {
     height: 150px;
 }
+
 #col p {
     text-align: center;
 }
@@ -20,12 +24,30 @@
 }
 
 .grid-item {
-    width: 100px;
+    width: 350px;
     padding: 10px;
-    margin-left: -5px;
+    /* margin: 10px; */
+    /* margin-left: -5px; */
 }
 
 .grid-item--width2 {
-    width: 10px;
+    width: 350px;
+    padding: 10px;
+    height: 1000px;
 }
 
+
+[class*='imghvr-shutter-in-vert'] {
+    background-color: white;
+    text-align: left;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+[class*='imghvr-shutter-in-vert'] > figcaption {
+    background-color: pink;
+    color: white;
+  
+}
