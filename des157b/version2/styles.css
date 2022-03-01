@@ -1,0 +1,70 @@
+#frame {
+    padding: 50px;
+    height: 550px;
+    width: 1000px;
+    border: 1px solid black;
+}
+
+h1 {
+    font-family: acumin-pro-semi-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 95px;
+    margin-top: -10px;
+}
+
+p {
+    font-family: acumin-pro-semi-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dropdown {
+    margin-top: -1000px;
+
+    /* how do i shift this up even further? */
+}
+
+/* #imageHolder {
+    margin-left: 1150px;
+    margin-top: -705px;
+} */
+
+/* ask about styling the dropdowns itself — do i need a different API or library for this? */
+
+/* testing stuff here */
+#drag-1,#drag-2,#drag-3,#drag-4  {
+    width: 25%;
+    margin-left: 1080px;
+    /* margin-top: -10%; */
+    /* min-height: 6.5em; */
+    /* margin: 1rem 0 0 1rem; */
+    /* background-color: #29e; */
+    color: white;
+    border-radius: 0.75em;
+    padding: 3.55%;
+    touch-action: none;
+    user-select: none;
+    transform: translate(0px, 0px);
+}
+
+/* individual positioning for each item  — will be overlapping in final product*/
+#drag-1{
+    margin-top: -710px;
+    /* background-color: pink; */
+}
+
+#drag-2{
+    margin-top: -6%;
+    /* background-color: green; */
+}
+
+#drag-3{
+    /* background-color: blue; */
+    margin-top: -6%;
+}
+
+#drag-4{
+    margin-top: -6%;
+}

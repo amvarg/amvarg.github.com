@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- next steps - 3/1:
+-style dropdowns
+-enable screenshot functionality
+-have drawing thing follow cursor?
+-collect images for right hand side
+-overlap all images
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project — Version 2</title>
+    <link rel="stylesheet" href="https://use.typekit.net/ggk2boc.css">
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+  <!-- make sure u link this script! -->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>I define my generation as</h1>
+    <select id="drop1" name="drop1" class="dropdown">
+        <option value="optimistic">Optimistic</option>
+        <option value="globally-minded">Globally-Minded</option>
+        <option value="progressive">Progressive</option>
+        <option value="assertive">Assertive</option>
+    </select>
+
+    <select id="drop2" name="drop2" class="dropdown">
+        <option value="Cynical">Cynical</option>
+        <option value="Service-Oriented">Service-Oriented</option>
+        <option value="Loyal">Loyal</option>
+        <option value="Self-Reliant">Self-Reliant</option>
+    </select>
+    <select id="drop3" name="drop3" class="dropdown">
+        <option value="Multitasking">Multitasking</option>
+        <option value="Prepared">Prepared</option>
+        <option value="Respectful">Respectful</option>
+        <option value="honest">Honest</option>
+    </select>
+    <div id="frame">
+        <p>elements to be dragged into this frame</p>
+    </div>
+
+   
+    <!-- testing stuff down here -->
+    <div id="drag-1" class="draggable">
+        <img src="images/pla1.png" alt="placeholder">
+    </div>
+    <div id="drag-2" class="draggable">
+        <img src="images/pla2.png" alt="placeholder">
+    </div>
+    <div id="drag-3" class="draggable">
+        <img src="images/pla3.png" alt="placeholder">
+    </div>
+    <div id="drag-4" class="draggable">
+        <img src="images/pla4.png" alt="placeholder">
+    </div>
+
+</body>
+
+</html>
