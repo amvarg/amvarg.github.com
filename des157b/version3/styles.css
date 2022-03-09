@@ -1,0 +1,128 @@
+#frame {
+    margin-top: 10px;
+    padding: 50px;
+    height: 530px;
+    width: 1000px;
+    border: 1px solid black;
+}
+
+h1 {
+    font-family: acumin-pro-semi-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 95px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: acumin-pro-semi-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+select {
+    appearance: none;
+}
+
+.dropdown {
+    margin-top: -1000px;
+    background-color: white;
+}
+
+
+/* testing stuff here */
+.draggable {
+    width: 15%;
+    margin-left: 1080px;
+    color: white;
+    border-radius: 0.75em;
+    padding: 3.55%;
+    touch-action: none;
+    user-select: none;
+    transform: translate(0px, 0px);
+}
+
+/* individual positioning for each item  — will be overlapping in final product*/
+#drag-1 {
+    margin-top: -740px;
+    /* background-color: pink; */
+}
+
+#drag-2 {
+    margin-top: -300px;
+    margin-left: 1190px;
+    /* background-color: green; */
+}
+
+#drag-3 {
+    /* background-color: blue; */
+    margin-top: -7.5%;
+    /* margin-top: -440px;
+    margin-left: 1200px; */
+}
+
+#drag-4 {
+    margin-top: -12%;
+    margin-left: 1210px;
+    /* margin-top: -440px;
+    margin-left: 1200px; */
+
+}
+
+#drag-5 {
+    margin-top: -12.5%;
+    margin-left: 1100px;
+}
+
+#drag-6 {
+    margin-top: -12%;
+    margin-left: 1050px;
+}
+
+#drag-7 {
+    margin-top: -15.5%;
+    margin-left: 1250px;
+}
+
+#drag-8 {
+    margin-top: -10.85%;
+    margin-left: 1170px;
+}
+
+#drag-9 {
+    margin-top: -17%;
+    margin-left: 1350px;
+}
+
+#drag-10 {
+    margin-top: -14%;
+    margin-left: 1070px;
+}
+
+#drag-11 {
+    margin-top: -12%;
+    margin-left: 1150px;
+}
+
+#drag-12 {
+    margin-top: -14%;
+    margin-left: 1250px;
+}
+
+#drag-13 {
+    margin-top: -17%;
+    margin-left: 1000px;
+}
+
+#drag-14 {
+    margin-top: -17%;
+    margin-left: 1380px;
+}
+
+
+/* overall image styling here  */
+img {
+    height: 150px;
+}

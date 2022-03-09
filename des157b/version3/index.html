@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- next steps - 3/8:
+-style dropdowns?
+-enable screenshot functionality (https://stackoverflow.com/questions/4912092/using-html5-canvas-javascript-to-take-in-browser-screenshots)
+-have drawing thing follow cursor?
+-collect images for right hand side
+-overlap all images?
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project — Version 3</title>
+    <link rel="stylesheet" href="https://use.typekit.net/ggk2boc.css">
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+    <!-- make sure u link this script! -->
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>I define my generation as</h1>
+    <select id="drop1" name="drop1" class="dropdown">
+        <option value="optimistic">Optimistic</option>
+        <option value="globally-minded">Globally-Minded</option>
+        <option value="progressive">Progressive</option>
+        <option value="assertive">Assertive</option>
+    </select>
+    <select id="drop2" name="drop2" class="dropdown">
+        <option value="Cynical">Cynical</option>
+        <option value="Service-Oriented">Service-Oriented</option>
+        <option value="Loyal">Loyal</option>
+        <option value="Self-Reliant">Self-Reliant</option>
+    </select>
+    <select id="drop3" name="drop3" class="dropdown">
+        <option value="Multitasking">Multitasking</option>
+        <option value="Prepared">Prepared</option>
+        <option value="Respectful">Respectful</option>
+        <option value="honest">Honest</option>
+    </select>
+    <div id="frame">
+        <!-- <p>elements to be dragged into this frame</p> -->
+    </div>
+
+
+    <!-- all images to be held in here -->
+    
+    <div id="drag-1" class="draggable">
+        <img src="images/cigs.png" alt="cigarettes ewwwwww">
+    </div>
+    <div id="drag-2" class="draggable">
+        <img src="images/pin-3.png" alt="pin 3">
+    </div>
+    <div id="drag-3" class="draggable">
+        <img src="images/rotary.png" alt="rotary phone illustration">
+    </div>
+    <div id="drag-4" class="draggable">
+        <img src="images/sunnies.png" alt="raybans">
+    </div>
+    <div id="drag-5" class="draggable">
+        <img src="images/pin-2.png" alt="placeholder">
+    </div>
+    <div id="drag-6" class="draggable">
+        <img src="images/showposter.png" alt="placeholder">
+    </div>
+    <div id="drag-7" class="draggable">
+        <img src="images/covid.png" alt="placeholder">
+    </div>
+    <div id="drag-8" class="draggable">
+        <img src="images/r2d2.png" alt="placeholder">
+    </div>
+    <div id="drag-9" class="draggable">
+        <img src="images/pin-1.png" alt="placeholder">
+    </div>
+    <div id="drag-10" class="draggable">
+        <img src="images/earth.png" alt="placeholder">
+    </div>
+    <div id="drag-11" class="draggable">
+        <img src="images/penguin.png" alt="placeholder">
+    </div>
+    <div id="drag-12" class="draggable">
+        <img src="images/lattes.png" alt="placeholder">
+    </div>
+    <div id="drag-13" class="draggable">
+        <img src="images/avotoast.png" alt="placeholder">
+    </div>
+    <div id="drag-14" class="draggable">
+        <img src="images/igor.png" alt="placeholder">
+    </div>
+</body>
+
+</html>
