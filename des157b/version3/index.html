@@ -22,7 +22,7 @@
 
 <body>
     <h1>I define my generation as</h1>
-    <select id="drop1" name="drop1" class="dropdown">
+    <select onchange="updateInterface1()" id="drop1" name="drop1" class="dropdown">
         <option value="optimistic">Optimistic</option>
         <option value="globally-minded">Globally-Minded</option>
         <option value="progressive">Progressive</option>
@@ -42,6 +42,7 @@
     </select>
     <div id="frame">
         <!-- <p>elements to be dragged into this frame</p> -->
+        <p id="updateTest"></p>
     </div>
 
 
