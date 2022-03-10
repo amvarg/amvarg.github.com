@@ -1,5 +1,5 @@
-//user alerted w instructions — make sure u comment this back in!!
-// alert("How do you define your generation?\n\nUse the draggable images to the right to create a\ncollage that you feel defines your generation.");
+
+alert("How do you define your generation?\n\nUse the draggable images to the right to create a\ncollage that you feel defines your generation.");
 
 // target elements with the "draggable" class
 interact('.draggable')
@@ -62,4 +62,3 @@ function updateInterface3() {
     bgColor.style.backgroundColor = "rgba(240, 223, 42, 0.1)";
 }
 console.log('reading js!!!!');
-
