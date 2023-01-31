@@ -1,0 +1,120 @@
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+h1 {
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+body {
+    max-width: 90%;
+    margin: 0px auto;
+    padding-top: 20px;
+    font-family: "neue-haas-grotesk-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    font-family: 'Space Mono', monospace;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sections {
+    padding-top: 40px;
+}
+
+li {
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 3px;
+}
+
+.left-col {
+    width: 100%;
+    height: 100%;
+}
+
+.right-col {
+    width: 100%;
+    padding: 1.5em 5%;
+    box-sizing: border-box;
+}
+
+.left-col {
+    float: left;
+    width: 50%;
+   
+    position: fixed;
+}
+
+.right-col {
+    float: right;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+}
+
+/* footer {
+    padding-top: 10%;
+  
+} */
+
+
+#rHoverGroup1{
+    max-width: 80%;
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.titleHover{
+    padding-bottom: 3px;
+}
+
+.titleHover:hover{
+   font-style: italic;
+}
+
+hr{
+    border: rgb(40, 39, 39) 0.5px solid;
+    
+}
+/* testing hiding stuff lol
+ */
+
+ /* #rHoverGroup1{
+    visibility:collapse;
+ }
+
+ #rHover1:hover {
+    background:#123456;
+ }
+
+ #rHover1:hover + #rHoverGroup1{
+    visibility: visible;
+ } */
+
+ 
