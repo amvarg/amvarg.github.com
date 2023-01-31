@@ -1,0 +1,37 @@
+h1 {
+    font-family: "gothicus", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 0.5%;
+}
+
+label {
+
+    font-family: "hack", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    cursor: url(images/cursor-icon.png), auto;
+    text-align: center;
+    font-family: "hack";
+    font-weight: 400;
+    font-style: normal;
+}
+
+#fname {
+
+    color: rgb(201, 201, 201);
+}
+
+#SectionName {
+    font-size: 10px;
+    color: rgb(0, 47, 255);
+}
+
+button {
+    color: red;
+}

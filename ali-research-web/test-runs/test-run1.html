@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confess ur sins</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lzz3xyh.css">
+    <script>
+        //put JS here to save the form input... should this be external 
+        function showText1() {
+            var x = document.getElementById('SectionName');
+            if (x.style.display == 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Drop a <br> Confession <br> Below</h1>
+    <form onsubmit="showText1();return false">
+        <label for="conf1">Don't worry, I wont tell</label><br>
+        <br>
+        <input type="text" id="fname" name="fname" value="shhhh"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br>    
+    <DIV ID="SectionName" STYLE="display:none">here's a message from above:<br> thanks 4 submitting ! </DIV>
+</body>
+
+</html>
